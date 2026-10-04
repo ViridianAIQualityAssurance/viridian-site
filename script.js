@@ -1,0 +1,1 @@
+(()=>{const h=document.querySelector('.site-header');const f=()=>{h.style.boxShadow=window.scrollY>12?'0 12px 40px rgba(0,0,0,.18)':'none'};f();window.addEventListener('scroll',f,{passive:true})})();
