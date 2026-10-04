@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Viridian — Experimental Assurance for AI Systems</title>
+  <meta name="description" content="Independent experimental assurance for AI systems. Viridian tests whether the evidence behind model, evaluation and release decisions actually supports the claim being made." />
+  <meta name="theme-color" content="#07110d" />
+  <meta property="og:title" content="Viridian — Experimental Assurance for AI Systems" />
+  <meta property="og:description" content="We determine what your AI evidence can actually justify." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Viridian home"><span class="mark-wrap"><span class="mark">V</span></span><span>VIRIDIAN</span></a>
+      <nav class="nav" aria-label="Primary"><a href="#assurance">Assurance</a><a href="#audit">Audit</a><a href="#partners">Partners</a><a href="#principles">Principles</a></nav>
+      <a class="button button-small button-ghost" href="https://docs.google.com/forms/d/e/1FAIpQLScRhl7hZfzJbxi2ittQ2nNGawK9X_c67ERjhBrIVsmPuxsGxg/viewform" target="_blank" rel="noreferrer">Request an audit</a>
+    </div>
+  </header>
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> Independent experimental assurance</div>
+        <h1>Know what your AI evidence <em>actually</em> justifies.</h1>
+        <p class="lede">Viridian examines the evidence behind model improvements, regressions, evaluator changes and release decisions — so teams can distinguish defensible progress from experimental noise.</p>
+        <div class="hero-actions"><a class="button button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScRhl7hZfzJbxi2ittQ2nNGawK9X_c67ERjhBrIVsmPuxsGxg/viewform" target="_blank" rel="noreferrer">Request an Experimental Audit</a><a class="text-link" href="#partners">For consultancies <span>↗</span></a></div>
+        <p class="micro">Local-first where required. Fully asynchronous delivery available.</p>
+      </div>
+      <aside class="evidence-panel" aria-label="Example assurance view">
+        <div class="panel-head"><span>CLAIM REVIEW</span><span class="status">EVIDENCE-BOUNDED</span></div>
+        <div class="claim">“Candidate model improved over baseline.”</div>
+        <div class="rule"></div>
+        <div class="evidence-row"><span>Dataset identity</span><strong>Bound</strong></div>
+        <div class="evidence-row"><span>Evaluator identity</span><strong>Bound</strong></div>
+        <div class="evidence-row"><span>Run comparability</span><strong class="warn">Review required</strong></div>
+        <div class="evidence-row"><span>Provenance</span><strong>Traceable</strong></div>
+        <div class="result-box"><span>ASSURANCE FINDING</span><p>Claim strength is limited to the evidence that survives identity, comparability and evaluator checks.</p></div>
+      </aside>
+    </section>
+    <section class="band"><div class="shell band-inner"><span>MODEL EVALUATION</span><span>REGRESSION ASSURANCE</span><span>EVALUATOR INTEGRITY</span><span>PROVENANCE</span><span>RELEASE EVIDENCE</span></div></section>
+    <section id="assurance" class="section shell">
+      <div class="section-kicker">01 / WHAT WE DO</div>
+      <div class="split-heading"><h2>Evidence first. Claims second.</h2><p>Viridian does not replace your training stack, eval framework or engineering team. We sit around the experiment and ask a narrower question: <strong>does the evidence support the decision you are about to make?</strong></p></div>
+      <div class="grid-three">
+        <article class="card"><div class="card-num">01</div><h3>Comparability</h3><p>We examine whether baseline and candidate results are actually comparable across datasets, versions, configuration, execution environment and evaluation method.</p></article>
+        <article class="card"><div class="card-num">02</div><h3>Evaluator integrity</h3><p>We test whether judge, rubric or scoring changes quietly altered what the experiment measures — and whether reported gains survive that boundary.</p></article>
+        <article class="card"><div class="card-num">03</div><h3>Evidence provenance</h3><p>We trace what produced the result, which identities and assumptions it depends on, and which parts of the historical evidence remain defensible.</p></article>
+      </div>
+    </section>
+    <section id="audit" class="section shell">
+      <div class="audit-block">
+        <div><div class="section-kicker">02 / EXPERIMENTAL AUDIT</div><h2>A bounded answer to a high-value question.</h2><p>Our initial audit is deliberately narrow: one principal claim, one evidence package and one written assurance finding. We identify what the evidence supports, what it does not, and what must be re-run or qualified before the result can carry more weight.</p></div>
+        <div class="price-card"><div class="price-label">EXPERIMENTAL AUDIT</div><div class="price">£750</div><p>Best for model comparisons, suspicious regressions, evaluator changes and release decisions that need an independent technical review.</p><a class="button button-primary button-wide" href="https://docs.google.com/forms/d/e/1FAIpQLScRhl7hZfzJbxi2ittQ2nNGawK9X_c67ERjhBrIVsmPuxsGxg/viewform" target="_blank" rel="noreferrer">Start an audit</a></div>
+      </div>
+    </section>
+    <section id="partners" class="section shell">
+      <div class="partner-block"><div class="section-kicker">03 / CONSULTANCY PARTNERS</div><h2>Keep the client relationship. Add a specialist assurance layer.</h2><p>Viridian works with AI engineering, governance, MLOps and risk consultancies when a client needs deeper technical assurance than the core engagement provides. We can operate as a specialist subcontractor or on a referral basis, with no upfront partnership fee. Commercial terms apply only when paid client work is generated.</p><div class="partner-meta"><span>Referral or subcontract</span><span>Async delivery</span><span>Bounded scope</span><span>No upfront fee</span></div><a class="button button-ghost" href="mailto:viridian9182012@gmail.com?subject=Viridian%20consultancy%20partnership">Discuss a partnership</a></div>
+    </section>
+    <section id="principles" class="section shell">
+      <div class="section-kicker">04 / PRINCIPLES</div>
+      <div class="principle-grid"><div><h2>We do not sell certainty.</h2><p>We show you exactly what the evidence can justify.</p></div><div class="principles"><div><span>01</span><p><strong>No witness, no promotion.</strong> A stronger claim requires stronger, identified evidence.</p></div><div><span>02</span><p><strong>No authority, no effect.</strong> A result cannot silently gain decision weight from computation alone.</p></div><div><span>03</span><p><strong>Unknown stays unknown.</strong> Missing evidence is reported as a boundary, not converted into confidence.</p></div></div></div>
+    </section>
+    <section class="section shell">
+      <div class="product-block"><div><div class="section-kicker">05 / OSMIUM</div><h2>Recurring assurance for teams that need more than a one-off audit.</h2><p>Osmium is Viridian’s enterprise experimental-assurance platform for reproducibility, provenance, regression control, evaluator integrity and defensible evidence across repeated AI development cycles.</p></div><div class="product-side"><span class="tag">ENTERPRISE</span><p>For teams that need assurance integrated into ongoing model and evaluation workflows.</p><a class="text-link" href="mailto:viridian9182012@gmail.com?subject=Osmium%20enterprise%20enquiry">Enterprise enquiry <span>↗</span></a></div></div>
+    </section>
+    <section class="cta shell"><div><div class="section-kicker">READY WHEN THE CLAIM MATTERS</div><h2>Before you ship the result, establish what it actually supports.</h2></div><a class="button button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScRhl7hZfzJbxi2ittQ2nNGawK9X_c67ERjhBrIVsmPuxsGxg/viewform" target="_blank" rel="noreferrer">Request an Experimental Audit</a></section>
+  </main>
+  <footer><div class="shell footer-inner"><div><a class="brand" href="#top"><span class="mark-wrap"><span class="mark">V</span></span><span>VIRIDIAN</span></a><p>Experimental assurance for AI systems.</p></div><div class="footer-links"><a href="https://github.com/ViridianAIQualityAssurance" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/derry-mitchell-19695243b/" target="_blank" rel="noreferrer">LinkedIn</a><a href="mailto:viridian9182012@gmail.com">Contact</a></div><div class="footer-copy">© 2026 Viridian. Operated by Derry Mitchell.</div></div></footer>
+  <script src="/script.js"></script>
+</body>
+</html>
